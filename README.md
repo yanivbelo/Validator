@@ -1,6 +1,6 @@
 # Validator
-Java Validator interface
-Simple and easy to use a "user input" validation interface.
+Java Validator
+is a simple and easy to use interface for "user input" validation.
 
 By implementing the interface we get 7 validation methods by default + a wraper method that holds use of all of them, by selection the validation method we want via Enum cases as parameter.
 
