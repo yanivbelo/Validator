@@ -29,7 +29,7 @@ gets a Scanner object + String massage for user (before the use of the scanner),
  - ONLY_VALID_PHONE_NUMBER
 
 
-# If we are not using user input, we can use all the methods that return boolean in the "Setters" methods in our Object classes.
+# If we are not using "user input", we can use all the methods that return boolean in the "Setters" methods in our Object classes.
 for example:
 
 public void setFirstName(String firstName)
