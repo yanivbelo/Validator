@@ -20,14 +20,16 @@ inputValidation(String massage, Scanner scanner, ValidationMethod validationMeth
 
 gets a Scanner object + String massage for user (before the use of the scanner),than by selecting from the Enum cases for the desiresd validation method, the method will return the user input string only if met the validation process that was selected via Enum.
 
-# this are the validation options:
+# this are the Enum validation options:
 
-enum ValidationMethod
-    {
-        ONLY_NUMBERS, ONLY_ALPHABETIC, ONLY_VALID_EMAIL , ONLY_ALPHABETIC_AND_NUMBERS , ONLY_VALID_PHONE_NUMBER
-    }
+ - ONLY_NUMBERS
+ - ONLY_ALPHABETIC,
+ - ONLY_VALID_EMAIL ,
+ - ONLY_ALPHABETIC_AND_NUMBERS 
+ - ONLY_VALID_PHONE_NUMBER
 
-# if we not useing user input, we can use all the methods that return boolean in the "Setters" methods in our Object classes.
+
+# if we are not using user input, we can use all the methods that return boolean in the "Setters" methods in our Object classes.
 for example:
 
 public void setFirstName(String firstName)
