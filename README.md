@@ -19,6 +19,7 @@ By implementing the interface we get 7 validation methods by default + a wraper 
 inputValidation(String massage, Scanner scanner, ValidationMethod validationMethod)
 
 gets a Scanner object + String massage for user (before the use of the scanner),than by selecting from the Enum cases for the desiresd validation method, the method will return the user input string only if met the validation process that was selected via Enum.
+this method uses all the boolean methods according to the Enum validation method request.
 
 # This are the Enum validation cases:
 
